@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@font-face {
+    font-family: 'ZCOOLKuaiLe';
+    src: url('../font/ZCOOLKuaiLe-Regular.ttf');
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header-container {
+    margin-top: 10px;
+    margin-left: 60px; !important;
+    margin-right: 60px; !important;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(203, 208, 234, 0.45);
+    z-index: 997;
+}
+
+.header-tag {
+    margin-left: .5em;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    font-family: "ZCOOLKuaiLe", sans-serif;
+}
+
+.header-title {
+    font-size: 28px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Home - Main
+--------------------------------------------------------------*/
+.home-first-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+#main-content {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(203, 208, 234, 80%);
+    margin-top: 0;
+    z-index: 100;
+}
+
+
+/* 大屏幕 */
+.ui.container {
+    width: 1300px;
+    margin-top: 60px;
+}
+
+
+/* 中等屏幕 */
+@media screen and (max-width: 992px) {
+    .ui.container {
+        width: 792px;
+        margin-top: 40px;
+    }
+}
+
+/* 小屏幕 */
+@media screen and (max-width: 768px) {
+    .ui.container {
+        width: 668px;
+        margin-top: 20px;
+    }
+}
+
+
+.tag-title {
+    font-family: "ZCOOLKuaiLe", sans-serif;
+}
